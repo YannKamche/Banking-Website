@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    @apply bg-color-secondary px-9 py-3 rounded-3xl capitalize font-bold hover:opacity-70 ease-in duration-200 transform transition-transform hover:scale-110;
+}
+.link {
+    @apply hover:text-color-secondary ease-in duration-200;
+}
+.title {
+    @apply text-3xl font-bold capitalize md:text-4xl leading-snug ;
+}

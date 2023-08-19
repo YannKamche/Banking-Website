@@ -14,7 +14,7 @@
 <body class="bg-color-primary text-color-white tracking-wider font-body">
 
     <!-- Header starts  -->
-    <header>
+    <header class="mt-3">
         <nav class="container flex justify-between items-center">
             <div>
                 <a href="#home" class=" w-20 py-5 font-bold text-color-secondary text-3xl">
@@ -23,14 +23,14 @@
             </div>
             <div>
                 <ul class="hidden lg:flex items-center space-x-6">
-                    <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
-                    <li><a href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
-                    <li><a href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Testimonial</a></li>
-                    <li><a href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
-                    <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
-                    <li><a href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+                    <li><a href="#home" class="link">Home</a></li>
+                    <li><a href="#features" class="link">Features</a></li>
+                    <li><a href="#testimonial" class="link">Testimonial</a></li>
+                    <li><a href="#pricing" class="link">Pricing</a></li>
+                    <li><a href="#blog" class="link">Blog</a></li>
+                    <li><a href="#contact" class="link">Contact</a></li>
 
-                    <li><button class="bg-color-secondary px-9 py-3 rounded-3xl capitalize font-bold hover:opacity-70 ease-in duration-200">free trial</button></li>
+                    <li><button class="btn">free trial</button></li>
                 </ul>
             </div>
 
@@ -49,7 +49,7 @@
                     <li><a id="hLink" href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
                     <li><a id="hLink" href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
 
-                    <li><button class="bg-color-secondary px-9 py-3 rounded-3xl capitalize font-bold hover:opacity-70 ease-in duration-200 transform transition-transform hover:scale-110">free trial</button></li>
+                    <li><button class="btn">free trial</button></li>
                 
                 </ul>
             </div>
@@ -59,7 +59,28 @@
 
     <!-- Home start -->
     <main>
+        <section id="home relative">
+            <div class="w-80 h-80 bg-color-blob absolute top-0 -left-5 -z-10 blur-2xl rounded-full overflow-hidden opacity-30"></div>
+            <div class="w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-10 blur-2xl rounded-full overflow-hidden opacity-30"></div>
+            
+            <div class="container py-20">
+                <div class="flex flex-col items-center z-20 md:flex-row">
+                    <div class="text-center mb-12 md:text-left md:w-1/2 md: pr-10">
+                        <h1 class="title mb-4 text-color-secondary"><span class="text-color-white">your</span> financial app</h1>
+                        <p class="leading-relaxed mb-10">izyBank is your <span class="text-color-secondary font-bold"> premium </span>App that ensures fast, 
+                            reliable and secured transactions of your money in just a <span class="text-color-secondary font-bold">click</span>. We provide you
+                            with the best customer services, money transfer and exchange rates ever.
+                        </p>
 
+                        <button class="group btn text-lg">download app <i class="fa-solid fa-arrow-right transition-transform translate-x-0 group-hover:translate-x-3"></i></button>
+                    </div>
+
+                    <div class="w-1/2">
+                        <img src="./img/hero4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Custom js file link -->
