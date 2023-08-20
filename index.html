@@ -40,7 +40,7 @@
             </div>
 
             <!-- Navigation Links for Mobile View -->
-            <div id="menu" class=" hidden bg-color-primary h-[100vh] absolute inset-0">
+            <div id="menu" class=" hidden bg-color-primary h-[100vh] absolute inset-0 z-20">
                 <ul class="h-full grid place-items-center py-24">
                     <li><a id="hLink" href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
                     <li><a id="hLink" href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
@@ -57,9 +57,10 @@
     </header>
     <!-- Header ends -->
 
-    <!-- Home start -->
+    
     <main>
-        <section id="home relative">
+        <!-- Home starts -->
+        <section id="home" class="relative">
             <div class="w-80 h-80 bg-color-blob absolute top-0 -left-5 -z-10 blur-2xl rounded-full overflow-hidden opacity-30"></div>
             <div class="w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-10 blur-2xl rounded-full overflow-hidden opacity-30"></div>
             
@@ -81,6 +82,54 @@
                 </div>
             </div>
         </section>
+        <!-- Home ends -->
+
+        <!-- Features starts -->
+        <section id="features" class="bg-color-primary-light capitalize">
+            <div class="container py-20">
+               <div class="text-center m-auto mb-20 md:w-1/2">
+                <h4 class="font-bold text-color-secondary mb-4 text-2xl">our future</h4>
+                <h1 class="title">managing your payments have never been this easy</h1>
+               </div>
+
+               <!-- Cards section-->
+               <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:gap-8 px-4 sm:px-6 lg:px-8">
+
+                    <!-- Card 1 -->
+                    <div class="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl
+                    cursor-pointer hover:bg-color-primary-dark ease in duration-200 transition-transform hover:scale-105">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                            <i class="fa-solid fa-calendar-days text-5xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold py-4">expense trackering</h3>
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, reprehenderit.</p>
+                    
+                    </div>
+                   <!-- Card 2 -->
+                   <div class=" bg-color-primary-dark border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl
+                   cursor-pointer hover:bg-color-primary-dark ease in duration-200 transition-transform hover:scale-105">
+                       <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                           <i class="fa-solid fa-money-check-dollar text-5xl"></i>
+                       </div>
+                       <h3 class="text-2xl font-bold py-4">finance snapshot</h3>
+                       <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, reprehenderit.</p>
+                   
+                   </div>
+                   <!-- Card 3 -->
+                   <div class="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl
+                   cursor-pointer hover:bg-color-primary-dark ease in duration-200 transition-transform hover:scale-105">
+                       <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                           <i class="fa-solid fa-calendar-check text-5xl"></i>
+                       </div>
+                       <h3 class="text-2xl font-bold py-4">support 24/24</h3>
+                       <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, reprehenderit.</p>
+                   
+                   </div>
+               </div>
+            </div>
+        </section>
+        <!-- Features ends -->
+
     </main>
 
     <!-- Custom js file link -->
