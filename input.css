@@ -12,3 +12,9 @@
 .title {
     @apply text-3xl font-bold capitalize md:text-4xl leading-snug ;
 }
+.blob1 {
+    @apply w-80 h-80 bg-color-blob absolute top-0 -left-5 -z-10 blur-2xl rounded-full overflow-hidden opacity-30;
+}
+.blob2 {
+    @apply w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-10 blur-2xl rounded-full overflow-hidden opacity-30;
+}
