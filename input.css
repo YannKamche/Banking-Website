@@ -6,6 +6,9 @@
 .btn {
     @apply bg-color-secondary px-9 py-3 rounded-3xl capitalize font-bold hover:opacity-70 ease-in duration-200 transform transition-transform hover:scale-110;
 }
+.card_btn {
+    @apply w-full px-9 py-3 bg-color-primary-dark rounded-md capitalize font-bold hover:bg-color-secondary opacity-70 ease-in duration-200;
+}
 .link {
     @apply hover:text-color-secondary ease-in duration-200;
 }
@@ -45,4 +48,18 @@
         margin-top: 0;
         opacity: 1;
     }
+}
+
+.card {
+    perspective: 300px;
+}
+
+.front,
+.back {
+    backface-visibility: hidden;
+    transition: all 1.0s ease;
+}
+
+.front{
+    overflow: hidden;
 }
