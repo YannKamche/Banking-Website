@@ -37,7 +37,7 @@ function showReview() {
 }
 
 /*---- FLIP PRICE CARD---***/
-const toggleBtn = document.getElementById('toggleBtn');
+const toggleBtn = document.getElementById('toggleBtn'); //Gets the toggle Button id
 
 const card_1_front = document.querySelector('#card_1_front');
 const card_1_back = document.querySelector('#card_1_back');
