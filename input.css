@@ -64,7 +64,7 @@
     overflow: hidden;
 }
 .download-app {
-    @apply bg-color-white h-16 w-44 grid place-items-center rounded-lg hover:opacity-70 transition-all duration-300 ease-in-out hover:bg-color-secondary;
+    @apply bg-color-white h-16 w-44 grid place-items-center rounded-lg hover:opacity-70 transition-all duration-200 ease-in-out hover:bg-color-secondary;
 }
 
 .input {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +14,10 @@
 <body class="bg-color-primary text-color-white tracking-wider font-body">
 
     <!-- Header starts  -->
-    <header class="mt-5">
+    <header class="top-0 sticky z-50">
         <nav class="container flex justify-between items-center">
-            <div>
-                <a href="#home" class="w-20 py-5 font-bold text-color-secondary text-3xl">
+            <div class="w-20 py-5 font-bold text-color-secondary text-3xl">
+                <a href="#home">
                     izy<span class="text-color-white">Bank</span>.
                 </a>
             </div>
@@ -72,7 +72,8 @@
                             with the best customer services, money transfer and exchange rates ever.
                         </p>
 
-                        <button class="group btn text-lg">download app <i class="fa-solid fa-arrow-right transition-transform translate-x-0 group-hover:translate-x-3"></i></button>
+                        <button class="group btn text-lg">download app 
+                            <i class="fa-solid fa-arrow-right transition-transform translate-x-0 group-hover:translate-x-3"></i></button>
                     </div>
 
                     <div class="md:w-1/2">
@@ -585,7 +586,8 @@
                         
 
                             <div>
-                                <div class="flex items-center gap-5 py-5">                            <p>20 August 2021</p>
+                                <div class="flex items-center gap-5 py-5">                            
+                                    <p>20 August 2021</p>
                                     <p>1 min read</p>
                                 </div>
                                 <a href="#" class="text-2xl font-bold underline hover:text-color-secondary 
@@ -676,7 +678,7 @@
         <!-- Download App ends -->
 
         <!-- Contact starts -->
-        <section id="contact">
+        <section id="contact" class="bg-color-primary-light">
             <div class="container py-20">
                 <div class="text-center m-auto mb-20 md:w-1/2">
                     <h4 class="font-bold text-color-secondary mb-4 capitalize text-2xl">have a question</h4>
@@ -701,6 +703,76 @@
             </div>
         </section>
         <!-- Contact ends -->
+
+        <!-- Footer starts -->
+        <section id="footer">
+            <div class="bg-color-primary-dark- relative">
+                <div class="container py-10">
+                    <div class="grid gap-10 md:grid-cols-3 pb-10">
+                        
+                        <div class="space-y-6">
+                            <h4 class="font-bold text-lg">About App</h4>
+                            <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut consequatur exercitationem rem, reprehenderit 
+                                </p>
+                            <div class="flex gap-5 items-center">
+                                <p>Follow Us</p>
+                                <i class="fa-brands fa-facebook-f cursor-pointer hover:text-color-secondary"></i>
+                                <i class="fa-brands fa-twitter cursor-pointer hover:text-color-secondary"></i>
+                                <i class="fa-brands fa-instagram cursor-pointer hover:text-color-secondary"></i>
+                                <i class="fa-brands fa-youtube cursor-pointer hover:text-color-secondary"></i>
+                                <i class="fa-brands fa-pinterest cursor-pointer hover:text-color-secondary"></i>
+
+                            </div>
+                        </div>
+
+                        <div class="flex justify-between md:justify-around">
+                            <div class="space-y-6">
+                                <h4 class="font-bold text-lg">Quick Links</h4>
+                                <ul class="space-y-3">
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">Home</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#features">Features</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#testimonial">Testimonial</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#pricing">Pricing</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#blog">Blog</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="space-y-6">
+                                <h4 class="font-bold text-lg">Help</h4>
+                                <ul class="space-y-3">
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">About Us</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#features">Partners</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#testimonial">Career</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#pricing">Reviews</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#blog">Terms & Conditions</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#contact">Help</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="space-y-6">
+                            <h4 class="font-bold text-lg">Newsletter</h4>
+                            <p class="leading-relaxed capitalize">subscribe with email and loads of news will
+                                be sent to you
+                            </p>
+                            <div>
+                                <input type="text" name="" id="" class="w-3/4 text-color-gray bg-color-white p-2 lg:p-3 
+                                rounded-l-md focus:outline-none" placeholder="Enter Your Email">
+                                <button type="submit" class="group bg-color-secondary px-4 py-2 lg:px-5 lg:py-4 rounded-r-md hover:opacity-90">
+                                    <i class="fa-solid chevron-right transition-transform translate-x-0 group-hover:translate-x-3"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center pt-10 border-t border-t-color-gray"> 
+                        <p>2023 &copy; <span class="text-color-secondary font-bold">izyBank</span>. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer ends -->
 
     </main>
 
