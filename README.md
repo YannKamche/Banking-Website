@@ -12,4 +12,5 @@ izyBank is your premium App that ensures fast, reliable and secured transactions
 ![Screenshot (553)](https://github.com/YannKamche/Banking-Website/assets/122357201/fdc9e8e9-90b6-4f51-ad4a-5afe07bc3447)
 ![Screenshot (554)](https://github.com/YannKamche/Banking-Website/assets/122357201/b56360eb-fc9c-429f-a94d-63b5c6d24859)
 ![Screenshot (555)](https://github.com/YannKamche/Banking-Website/assets/122357201/81b05e90-8bbb-4626-9269-f7e6db6f2f1a)
+<img width="467" alt="Screenshot 2023-08-25 150337" src="https://github.com/YannKamche/Banking-Website/assets/122357201/2a580cce-a5ae-46b0-8fff-8b531b972a01">
 
