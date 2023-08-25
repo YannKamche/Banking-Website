@@ -1,5 +1,5 @@
-#Banking Website
-## Izy Bank
+# Banking Website
+# Izy Bank
 izyBank is your premium App that ensures fast, reliable and secured transactions of your money in just a click. We provide you with the best customer services, money transfer and exchange rates ever.
 
 ![Screenshot (555)](https://github.com/YannKamche/Banking-Website/assets/122357201/81b05e90-8bbb-4626-9269-f7e6db6f2f1a)
