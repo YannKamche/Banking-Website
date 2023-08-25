@@ -1,5 +1,5 @@
 # Banking Website
-# Preview: 
+# Preview: https://izy-bank.netlify.app/
 # Izy Bank
 izyBank is your premium App that ensures fast, reliable and secured transactions of your money in just a click. We provide you with the best customer services, money transfer and exchange rates ever.
 
