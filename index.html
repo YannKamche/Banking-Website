@@ -23,7 +23,7 @@
             </div>
             <div>
                 <ul class="hidden lg:flex items-center space-x-6">
-                    <li><a href="#home" class="link">Home</a></li>
+                    <li><a href="#home" class="link active-link">Home</a></li>
                     <li><a href="#features" class="link">Features</a></li>
                     <li><a href="#testimonial" class="link">Testimonial</a></li>
                     <li><a href="#pricing" class="link">Pricing</a></li>
@@ -42,12 +42,12 @@
             <!-- Navigation Links for Mobile View -->
             <div id="menu" class="hidden bg-color-primary h-[100vh] absolute inset-0 z-20">
                 <ul class="h-full grid place-items-center py-24">
-                    <li><a id="hLink" href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
-                    <li><a id="hLink" href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
-                    <li><a id="hLink" href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Testimonial</a></li>
-                    <li><a id="hLink" href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
-                    <li><a id="hLink" href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
-                    <li><a id="hLink" href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+                    <li><a id="hLink" href="#home" class="link active-link">Home</a></li>
+                    <li><a id="hLink" href="#features" class="link">Features</a></li>
+                    <li><a id="hLink" href="#testimonial" class="link">Testimonial</a></li>
+                    <li><a id="hLink" href="#pricing" class="link">Pricing</a></li>
+                    <li><a id="hLink" href="#blog" class="link">Blog</a></li>
+                    <li><a id="hLink" href="#contact" class="link">Contact</a></li>
 
                     <li><button class="btn">free trial</button></li>
                 </ul>
@@ -768,7 +768,7 @@
                     </div>
 
                     <div class="flex justify-center pt-10 border-t border-t-color-gray"> 
-                        <p>2023 &copy; <span class="text-color-secondary font-bold">izyBank</span>. All Rights Reserved</p>
+                        <p>2023 &copy; <a href="#" class="text-color-secondary font-bold">izyBank</a>. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
@@ -777,9 +777,11 @@
         <!-- Footer ends -->
     </main>
 
-    <a href="#" class="group fixed bg-color-secondary rounded-md px-2 py-1 z-20 right-4 lg:right-5 hover:opacity-70" id="scroll-up">
-        <i class="fa-solid fa-arrow-up text-color-white font-bold text-sm transition-transform duration-200 group-hover:-translate-y-1"></i>
-    </a>
+        <!-- SCROLL TO TOP -->
+        <a href="#" class="fixed bg-color-secondary rounded-md px-2 py-1 z-20 right-4 lg:right-5 hover:opacity transition-transform
+        duration-100 hover:-translate-y-3 -bottom-10" id="scroll-up">
+            <i class="fa-solid fa-arrow-up text-color-white font-bold text-sm"></i>
+        </a>
 
 
     <!-- Custom js file link -->

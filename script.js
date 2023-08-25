@@ -83,7 +83,35 @@ const scrollUp = () => {
     const scrollUp = document.getElementById("scroll-up");
 
     this.scrollY >= 350 
-    ? scrollUp.classList.add("bottom-0") 
-    : scrollUp.classList.remove("bottom-0"); 
+    ? scrollUp.classList.add("show-scroll") 
+    : scrollUp.classList.remove("show-scroll");
+
+    
 }
 window.addEventListener("scroll", scrollUp);
+
+/*~~~~~~~~~~~~~~~ SCROLL SECTIONS ACTIVE LINK ~~~~~~~~~~~~~~~*/
+const activeLink = () => {
+    const section = document.querySelectorAll('section');
+    const navLink = document.querySelectorAll(".link");
+
+    let current = "home";
+
+    section.forEach(section => {
+        const sectionTop = section.offsetTop;
+
+        if(this.scrollY >= sectionTop -70) {
+            current = section.getAttribute('id');
+        }
+    })
+
+    navLink.forEach(item => {
+        item.classList.remove('active-link');
+        if(item.href.includes(current)) {
+            item.classList.add("active-link")
+        }
+    })
+
+}
+
+window.addEventListener("scroll", activeLink);

@@ -12,6 +12,9 @@
 .link {
     @apply hover:text-color-secondary ease-in duration-200;
 }
+.active-link {
+    @apply text-color-secondary;
+}
 .title {
     @apply text-3xl font-bold capitalize md:text-4xl leading-snug ;
 }
@@ -68,6 +71,10 @@
 }
 
 .input {
-    @apply bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full
-    p-3 focus:outline-none focus:border-color-secondary;
+    @apply bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary;
+}
+
+.show-scroll {
+    bottom: 3rem;
+    transition: bottom 0.3s;
 }
