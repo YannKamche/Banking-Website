@@ -60,7 +60,7 @@ toggleBtn.addEventListener('change', () => {
     card_3_back.classList.toggle('rotate-y-180');
 })
 
-/***----STICKY NAVBAR---***/
+/******--------STICKY NAVBAR------************/
 
 const navbar = document.querySelector('header');
 
@@ -77,3 +77,13 @@ window.onscroll = () => {
         navbar.classList.remove('border-b-color-gray');
     }
 }
+
+/*~~~~~~~~~~~~~~~ SHOW SCROLL UP ~~~~~~~~~~~~~~~*/
+const scrollUp = () => {
+    const scrollUp = document.getElementById("scroll-up");
+
+    this.scrollY >= 350 
+    ? scrollUp.classList.add("bottom-0") 
+    : scrollUp.classList.remove("bottom-0"); 
+}
+window.addEventListener("scroll", scrollUp);
