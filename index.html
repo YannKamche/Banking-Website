@@ -715,14 +715,17 @@
                             <h4 class="font-bold text-lg">About App</h4>
                             <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut consequatur exercitationem rem, reprehenderit 
                                 </p>
-                            <div class="flex gap-5 items-center">
+                            <div class="flex items-center justify-between md:flex-col md:items-start md:gap-3">
                                 <p>Follow Us</p>
-                                <i class="fa-brands fa-facebook-f cursor-pointer hover:text-color-secondary"></i>
-                                <i class="fa-brands fa-twitter cursor-pointer hover:text-color-secondary"></i>
-                                <i class="fa-brands fa-instagram cursor-pointer hover:text-color-secondary"></i>
-                                <i class="fa-brands fa-youtube cursor-pointer hover:text-color-secondary"></i>
-                                <i class="fa-brands fa-pinterest cursor-pointer hover:text-color-secondary"></i>
-
+                                <div class="space-x-3">
+                                    <i class="fa-brands fa-facebook-f cursor-pointer hover:text-color-secondary"></i>
+                                    <i class="fa-brands fa-twitter cursor-pointer hover:text-color-secondary"></i>
+                                    <i class="fa-brands fa-instagram cursor-pointer hover:text-color-secondary"></i>
+                                    <i class="fa-brands fa-youtube cursor-pointer hover:text-color-secondary"></i>
+                                    <i class="fa-brands fa-pinterest cursor-pointer hover:text-color-secondary"></i>
+    
+                                </div>
+                               
                             </div>
                         </div>
 
@@ -759,7 +762,7 @@
                             </p>
                             <div>
                                 <input type="text" name="" id="" class="w-3/4 text-color-gray bg-color-white p-2 lg:p-3 
-                                rounded-l-md focus:outline-none" placeholder="Enter Your Email">
+                                rounded-l-md focus:outline-none placeholder:italic" placeholder="Enter Your Email">
                                 <button type="submit" class="group bg-color-secondary px-4 py-2 lg:px-5 lg:py-4 rounded-r-md hover:opacity-90">
                                     <i class="fa-solid chevron-right transition-transform translate-x-0 group-hover:translate-x-3"></i>
                                 </button>
@@ -779,7 +782,7 @@
 
         <!-- SCROLL TO TOP -->
         <a href="#" class="fixed bg-color-secondary rounded-md px-2 py-1 z-20 right-4 lg:right-5 hover:opacity transition-transform
-        duration-100 hover:-translate-y-3 -bottom-10" id="scroll-up">
+        duration-100 hover:-translate-y-3 -bottom-10 animate-bounce" id="scroll-up">
             <i class="fa-solid fa-arrow-up text-color-white font-bold text-sm"></i>
         </a>
 
